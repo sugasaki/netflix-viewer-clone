@@ -1,12 +1,16 @@
 import React from 'react';
 import './App.css';
-import { Row } from './components/Row'
+import { Row } from './compornents/Row'
 import { requests } from "./request";
+import { Banner } from "./compornents/Banner";
+import { Nav } from "./compornents/Nav";
 
 function App() {
   return (
     <div className="App">
-        <Row
+       <Nav />
+       <Banner />
+       <Row
           title="NETFLIX ORIGUINALS"
           fetchUrl={requests.feachNetflixOriginals}
           isLargeRow

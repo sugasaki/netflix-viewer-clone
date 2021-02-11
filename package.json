@@ -11,9 +11,12 @@
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "axios": "^0.21.1",
+    "movie-trailer": "^2.1.0",
+    "node-sass": "^5.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.2",
+    "react-youtube": "^7.13.1",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
   },
@@ -40,5 +43,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/node-sass": "^4.11.1",
+    "@types/testing-library__jest-dom": "^5.9.5"
   }
 }
