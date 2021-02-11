@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import { Row } from './compornents/Row'
+import { Row } from './components/Row'
 import { requests } from "./request";
-import { Banner } from "./compornents/Banner";
-import { Nav } from "./compornents/Nav";
+import { Banner } from "./components/Banner";
+import { Nav } from "./components/Nav";
 
 function App() {
   return (
